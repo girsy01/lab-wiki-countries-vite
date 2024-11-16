@@ -2,3 +2,100 @@
   margin: 0 auto;
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(17, 107, 252);
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a {
+  color: white;
+}
+
+h1 {
+  padding: 30px;
+}
+
+.list-item {
+  border: 0.5px solid grey;
+  height: 3rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.list-item img {
+  height: 50%;
+  padding-right: 20px;
+}
+
+.details * {
+  margin: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.details {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.details img {
+  height: 70px;
+}
+
+.country-table {
+  width: 50%;
+  margin-top: 50px;
+  margin-inline: auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.country-table th,
+.country-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.country-table th {
+  background-color: #f2f2f2;
+}
+
+.country-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.country-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.borders-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: underline;
+}
